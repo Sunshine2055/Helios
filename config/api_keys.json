@@ -1,0 +1,47 @@
+{
+    "gemini_api_key": "AQ.Ab8RN6KbGU08pnU_o0csPTpb9CSVVoFJ5nmyayVdRVSVUcrwOg",
+    "os_system": "Linux",
+    "wake_word_enabled": true,
+    "push_to_talk_enabled": false,
+    "assistant_name": "HELIOS",
+    "user_name": "",
+    "ui_color": "#00d4ff",
+    "input_device": "",
+    "output_device": "",
+    "providers": {
+        "mode": "gemini",
+        "pipeline": {
+            "stt": "",
+            "llm": "",
+            "tts": ""
+        },
+        "creds": {
+            "whisper": {
+                "backend": "local",
+                "model": "whisper-1",
+                "base_url": "https://api.openai.com/v1",
+                "catalog": "openai",
+                "vision": "",
+                "api_key": "",
+                "device": "cpu",
+                "language": "",
+                "download_root": ""
+            },
+            "openai_compat": {
+                "base_url": "http://127.0.0.1:11434/v1",
+                "max_tools": "14",
+                "max_tool_chars": "12000",
+                "catalog": "ollama",
+                "model": "",
+                "api_key": "",
+                "vision": ""
+            }
+        },
+        "sidecar": "",
+        "sidecar_first": false
+    },
+    "hud_style": "face",
+    "camera_index": 0,
+    "voice_style": "Natural",
+    "voice_name": "Charon"
+}
